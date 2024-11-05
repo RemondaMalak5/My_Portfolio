@@ -1,0 +1,202 @@
+
+
+.home{
+    height: 100vh;
+   
+}
+.navbar{
+ 
+ border-style: solid;
+ border-color: rgb(192, 26, 207);
+ border-width: 1px;
+}
+
+
+.navbar-nav{
+    position: absolute;
+    right: 1%;
+}
+
+.navbar-nav button{
+    background-color:  rgba(192, 26, 207, 0.462) ;
+}
+
+
+.navbar-nav a{
+    font-weight: bold;
+}
+
+.gradient{
+ 
+    /* background-image: radial-gradient(ellipse 500px 500px at top right ,blue 70% ,rgba(218, 29, 155, 0.767) 90%, aqua 100% , black  ); */
+
+    /* background-image: linear-gradient( to bottom left , blue 10%,rgba(218, 29, 155, 0.767) 30% 40%, black 50%); */
+
+    
+}
+
+.personal-info h1{
+    font-size: 100px;
+   
+    
+}
+
+.personal-info{
+    position: absolute;
+    top:10%;
+}
+.degsin{
+    
+    width: 2px;
+    height: 90%;
+    background-color:rgb(192, 26, 207);
+}
+
+.info p{
+    font-size: large;
+}
+
+@media (max-width:768px) {
+    .personal-info h1{
+        font-size: 30px;
+    }
+    .info p{
+        font-size: medium;
+        margin-left: 5%;
+    }
+    .degsin{
+        height: 90%;
+        
+    }
+ } 
+
+.icon a{
+    color: rgb(192, 26, 207);
+}
+
+.icon {
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    font-size: 35px;
+    color: rgb(192, 26, 207);
+}
+
+.carousel-img{
+    width: 150px;
+    height: 150px;position: relative;
+    left: 10%;
+}
+
+.layer{
+    width: 100%;
+    position: relative;
+    opacity: 0.3;
+    margin: auto;
+}
+
+.layer h1 {
+    color: rgba(207, 26, 135, 0.851);
+    font-size: 140px;
+  
+
+}
+ 
+@media (max-width:700px) {
+    .layer h1{
+        font-size: 60px;
+    } 
+}
+
+
+/* .skills h2{
+    position: absolute;
+    top: 20%;
+    font-size: 70px;
+} */
+
+.project img{
+    
+    background-color: rgba(127, 255, 212, 0.478);
+}
+.project img:hover{
+    position:relative;
+    top: 0;
+    left: 5px;
+    background-color: rgba(137, 43, 226, 0.614);
+}
+
+
+.nav-item button{
+    color: black;
+}
+.nav-item button:hover{
+   color: rgba(207, 26, 135, 0.851);
+}
+
+
+figure{
+    position: relative;
+    /* height: 250px;
+    width: 300px; */
+    
+}
+
+figcaption{
+    position: absolute;
+    top: 2%;
+    bottom: 2%;
+    right: 2%;
+    left: 2%;
+    opacity: 0;
+    background-color: rgba(239, 227, 234, 0.716);
+    transition: 2s;
+    font-weight: bolder;
+
+}
+
+figcaption:hover{
+    opacity: 1;
+}
+
+figcaption i{
+    font-size: 40px;
+    
+}
+
+
+.contact input{
+ border: solid 1px;
+}
+
+.contact label{
+    font-size: 20px;
+}
+
+.contact button{
+    /* background-color:  rgb(192, 26, 207) ; */
+    width: 150px;
+    border: solid 0px;
+    font-size: 20px;
+    
+}
+
+.contact h1{
+    font-size: 50px;
+}
+.contact i{
+    font-size: 30px;
+}
+
+.contact p{
+    font-size: 20px;
+}
+
+.fouter{
+    height: 100px;
+}
+
+.media-icon{
+    color: rgb(192, 26, 207);
+    size: 100px;
+}
